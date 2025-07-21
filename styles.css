@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(120, 0, 0);
+  color: white;
+  font-family: Georgia, Serif;
+  margin: auto;
+  width: 750px;
+  height: 170vh;
+}
+p {
+  text-align: center;
+  padding: auto;
+  font-size: 17px;
+  margin-bottom: 40px
+}
+h1 {
+  text-align: center;
+  padding: auto;
+  font-size: 25;
+}
+fieldset {
+  max-width: 270px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 17px;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+h5 {
+  max-width: 650px;
+  margin: 1em auto;
+  padding: 1em auto;
+  font-size: 18px;
+}
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: double white;
+}
+input, select, textarea {
+  background-color: rgb(120, 0, 0);
+  color: white;
+  font-size: 17px;
+}
+.name, .email, .number {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

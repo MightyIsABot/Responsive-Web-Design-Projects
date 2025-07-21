@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=height-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Odo's Orchard Volunteer Form</title>
+  </head>
+  <body>
+    <h1 id="title">Odo's Orchard Volunteer Survey</h1>
+    <p id="description">Thanks For Taking Time Out Of Your Day To Come Help Us Harvest! Please Take Some Time To Fill Out This Survey.</p>
+    <hr>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" for="name">Full Name: <input class="name" id="name" type="text" placeholder="Carl Henderson" required /></label>
+      <label id="email-label" for="email">Email: <input class="email" id="email" type="email" placeholder="example@gmail.com" required /></label>
+      <label id="number-label" for="number">Age: <input class="number" id="number" type="number" min="13" max="120" placeholder="13" required /></label>
+      <label><input value="male" name="gender" id="male" type="radio" /> Male</label>
+      <label><input value="female" name="gender" id="female" type="radio" /> Female</label>
+      <label><input value="other" name="gender" id="other" type="radio" /> Other</label>
+      </fieldset>
+      <hr>
+      <fieldset>
+      <h5>Availability: </h5>
+      <select id="dropdown">
+        <option value="choose-an-option">Choose an option</option>
+        <option value="Morning">Morning</option>
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+      </select>
+      <h5>What Area(s) Would You Like To Help With?</h5>
+      <label for="harvesting"><input id="harvesting" value="harvesting" type="checkbox" /> Harvesting</label>
+<label for="weeding"><input id="weeding" value="weeding" type="checkbox" /> Weeding</label>
+<label for="planting"><input id="planting" value="planting" type="checkbox" /> Planting</label>
+<label for="pruning"><input id="pruning" value="pruning" type="checkbox" /> Pruning</label>
+</fieldset>
+<hr>
+<fieldset>
+<h5>Any Questions Or Comments?</h5>
+<textarea id="comments" placeholder="Enter here..." rows="8" cols="43"></textarea>
+<button id="submit" type="submit">Submit</button>
+</fieldset>
+<hr>
+    </form>
+  </body>
+</html>
