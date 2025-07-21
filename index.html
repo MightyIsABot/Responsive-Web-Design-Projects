@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=height-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Odo's Orchard Volunteer Form</title>
-  </head>
-  <body>
-    <h1 id="title">Odo's Orchard Volunteer Survey</h1>
-    <p id="description">Thanks For Taking Time Out Of Your Day To Come Help Us Harvest! Please Take Some Time To Fill Out This Survey.</p>
-    <hr>
-    <form id="survey-form">
-      <fieldset>
-      <label id="name-label" for="name">Full Name: <input class="name" id="name" type="text" placeholder="Carl Henderson" required /></label>
-      <label id="email-label" for="email">Email: <input class="email" id="email" type="email" placeholder="example@gmail.com" required /></label>
-      <label id="number-label" for="number">Age: <input class="number" id="number" type="number" min="13" max="120" placeholder="13" required /></label>
-      <label><input value="male" name="gender" id="male" type="radio" /> Male</label>
-      <label><input value="female" name="gender" id="female" type="radio" /> Female</label>
-      <label><input value="other" name="gender" id="other" type="radio" /> Other</label>
-      </fieldset>
-      <hr>
-      <fieldset>
-      <h5>Availability: </h5>
-      <select id="dropdown">
-        <option value="choose-an-option">Choose an option</option>
-        <option value="Morning">Morning</option>
-        <option value="Afternoon">Afternoon</option>
-        <option value="Evening">Evening</option>
-      </select>
-      <h5>What Area(s) Would You Like To Help With?</h5>
-      <label for="harvesting"><input id="harvesting" value="harvesting" type="checkbox" /> Harvesting</label>
-<label for="weeding"><input id="weeding" value="weeding" type="checkbox" /> Weeding</label>
-<label for="planting"><input id="planting" value="planting" type="checkbox" /> Planting</label>
-<label for="pruning"><input id="pruning" value="pruning" type="checkbox" /> Pruning</label>
-</fieldset>
-<hr>
-<fieldset>
-<h5>Any Questions Or Comments?</h5>
-<textarea id="comments" placeholder="Enter here..." rows="8" cols="43"></textarea>
-<button id="submit" type="submit">Submit</button>
-</fieldset>
-<hr>
-    </form>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tribute Page Project</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main id="main">
+            <fieldset>
+            <h1 id="title">Nikola Tesla: The Genius Who Lit the World</h1>
+            <figure id="img-div">
+                <img id="image" src="https://th.bing.com/th/id/OIP.v2wHqRhUiw8ugNvfmGRRaQHaGy?r=0&rs=1&pid=ImgDetMain" alt="Nikola Tesla" id="image">
+                <figcaption id="img-caption">Nikola Tesla, the brilliant inventor whose ideas powered the modern world.</figcaption>
+            </figure>
+            <h1>Biography</h1>
+            <hr></hr>
+            <ul id="tribute-info">
+                <li><strong>Born:</strong> July 10, 1856, Smiljan, Austrian Empire (modern-day Croatia)</li>
+                <li><strong>Died:</strong> January 7, 1943, New York City, USA</li>
+                <li><strong>Education:</strong> Graz University of Technology, but never completed a degree.</li>
+                <li><strong>Background:</strong> Serbian-American inventor, engineer, and futurist. Moved to the U.S. in 1884 to work for Thmoas Edison.</li>
+        </ul>
+            <h1>Major Contributions</h1>
+            <hr></hr>
+            <ul id="tribute-info">
+                <li><strong>Alternating Current (AC):</strong> Developed the AC power system, which became the standard over Edison’s Direct Current (DC) due to its efficiency over long distances.</li>
+                <li><strong>Tesla Coil:</strong> Created a high-voltage transformer circuit still used in radio technology today.</li>
+                <li><strong>Radio & Wireless Energy:</strong> Worked on wireless transmission before Marconi. The Supreme Court later credited Tesla as the true inventor of radio.</li>
+                <li><strong>Induction Motor:</strong> Developed the motor that powered industries and revolutionized machinery.</li>
+                <li><strong>Wireless Power (Wardenclyffe Tower):</strong>Attempted to create a system for wireless global energy transmission.</li>
+            </ul>
+            <h1>Challenges</h1>
+            <hr></hr>
+            <ul id="tribute-info">
+                <li>Lacked financial support.</li>
+                <li>Died poor despite his groundbreaking contributions.</li>
+                <li>Often overshadowed by rivals like Thomas Edison.</li>
+            </ul>
+            <h1>Legacy</h1>
+            <hr></hr>
+            <ul id="tribute-info">
+                <li>The Tesla Unit for magnetic field strength is named after him.</li>
+                <li>Tesla Motors was named in his honor.</li>
+                <li>His work laid the foundation for modern electricity, radio, and wireless communication.</li>
+            </ul>
+            <h1>Famous Quote</h1>
+            <blockquote id="tribute-quote">
+                <em>"The present is theirs; the future, for which I really worked, is mine."</em>
+            </blockquote>
+            <h1>Interested?</h1>
+            <p>Learn more about Nikola Tesla's life and inventions <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">here</a>.</p>
+            </fieldset>
+        </main>
+    </body>
 </html>
